@@ -111,6 +111,11 @@ public class PlayerController : MonoBehaviour {
         Right = false;
     }
 
+    public void ExitButton()
+    {
+        Application.Quit();
+    }
+
     void OnTriggerEnter(Collider movingPlatform)
     {
         EnterLift = true;
